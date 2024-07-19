@@ -25,10 +25,12 @@ The algorithm for determining the matrix is simple. I connect all wires to a mic
 
 ### Hardware
 
-* 1mm FPC ribbon breakout
+* 1mm FPC ribbon connector breakout
 * Breadboard
 * Microcontroller. I used a Raspberry Pi Pico, which has just enough GPIO pins
 * Jumper wires
+
+![Matrix](IMG_0329.jpeg)
 
 ### Code
 I used Arduino studio and its framework to write the scaner code. The array `gpio` is a mapping from wire numbers to GPIO pin numbers. On the serial console, I print out the wire numbers.
